@@ -73,17 +73,27 @@
     {{ if and $page.Params.widget $page.Title }}<h1>{{ $page.Title | markdownify | emojify }}</h1>{{ end }}
 
     {{ $person_page.Content }}
-
+    <!-- mod y-tomita -->
     <div class="row">
 
-      {{ with $person.interests }}
       <div class="col-md-5">
         <h3>{{ i18n "interests" | markdownify }}</h3>
+        {{ with $person.interests }}
         <ul class="ul-interests">
           {{ range . }}
           <li>{{ . | markdownify | emojify }}</li>
           {{ end }}
         </ul>
+        <h3>Language</h3>	
+        {{ with $person.language }}	
+        <ul class="ul-interests">	
+          {{ range . }}	
+          <li>	
+            {{ .lang }} : {{ .level }}	
+          </li>	
+          {{ end }}	
+        </ul>	
+        {{ end }}
       </div>
       {{ end }}
 

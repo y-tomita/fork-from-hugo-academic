@@ -41,9 +41,9 @@
 - id: btn_download
   translation: ダウンロード
 - id: interests
-  translation: 興味・関心
+  translation: Interests
 - id: education
-  translation: 学歴
+  translation: Education
 - id: user_profile_latest
   translation: Latest
 - id: see_certificate
@@ -117,13 +117,13 @@
 - id: search_results
   translation: results found
 - id: search_no_results
-  translation: 結果が見つかりませんでした
+  translation: 該当する検索結果が見つかりませんでした。
 - id: page_not_found
-  translation: ページが見つかりませんでした
+  translation: "404 error : お探しのページは見つかりませんでした…"
 - id: 404_recommendations
-  translation: あなたが探しているものはこれらの中にあるかもしれません
+  translation: もしかして以下の情報をお探しですか？
 - id: cookie_message
-  translation: このウェブサイトはあなたが最高の体験を得るためにクッキーを使用します。
+  translation: このウェブサイトはクッキーを使用しています。
 - id: cookie_dismiss
   translation: はい
 - id: cookie_learn
