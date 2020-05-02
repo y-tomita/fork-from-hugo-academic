@@ -9,7 +9,8 @@
   <ul class="list-unstyled">
     {{ if gt (len .Sections) 0}}
     {{ range .Sections }}
-    <li><h5><a href="{{.RelPermalink}}">{{.LinkTitle}}</a></h5> {{with .Params.summary}}<p>{{. | plainify | emojify}}</p>{{end}}</li>
+    <!-- mod y-tomita / remove plainify -->
+    <li><h5><a href="{{.RelPermalink}}">{{.LinkTitle}}</a></h5> {{with .Params.summary}}<p>{{. | emojify}}</p>{{end}}</li>
     {{end}}
     {{end}}
   </ul>
