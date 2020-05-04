@@ -76,6 +76,8 @@
   translation: タイプ
 - id: date
   translation: 日付
+- id: published_date
+  translation: 初稿
 - id: last_updated
   translation: 最終更新
 - id: event
