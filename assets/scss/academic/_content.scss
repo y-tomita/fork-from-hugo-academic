@@ -34,7 +34,8 @@ article {
 
 .article-banner {
   width: 100%;
-  height: auto;
+  // mod y-tomita _nav.scss .nav's heightに合わせて増減
+  margin: -20px auto auto auto;
 }
 
 .featured-image-wrapper {
