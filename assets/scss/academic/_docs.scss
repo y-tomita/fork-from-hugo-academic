@@ -4,7 +4,7 @@
 
 .docs-article-container {
   // mod y-tomita expand max-width
-  max-width: 1080px;
+  max-width: 980px;
 }
 
 /* Documentation: article footer. */
@@ -231,11 +231,12 @@ ul.toc-top {
 #TableOfContents li a,
 .toc-top li a {
   display: block;
-  padding: .125rem 1.5rem;
   // mod y-tomita
+  //padding: .125rem 1.5rem;
   //color: #99979c;
   //font-size: 0.7rem;
-  font-size: 1.0rem;
+  padding: .125rem 1.0rem;
+  font-size: 0.75rem;
 }
 
 #TableOfContents li a:hover,
