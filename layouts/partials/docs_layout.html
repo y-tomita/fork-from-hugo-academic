@@ -39,7 +39,10 @@
         </div>
 
         <div class="body-footer">
-          <p>{{ i18n "last_updated" }} {{ $.Lastmod.Format site.Params.date_format }}</p>
+          <p>
+            <!-- mod y-tomita / add published data -->
+            {{ i18n "published_date" }} {{ $.Date.Format site.Params.date_format }} / {{ i18n "last_updated" }} {{ $.Lastmod.Format site.Params.date_format }}
+          </p>
 
           {{ partial "page_edit" . }}
 
