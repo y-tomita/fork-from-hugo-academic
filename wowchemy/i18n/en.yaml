@@ -150,6 +150,9 @@
 - id: date
   translation: Date
 
+- id: published_date
+  translation: Published on
+
 - id: last_updated
   translation: Last updated on
 

@@ -3,9 +3,13 @@
  **************************************************/
 
 .article-container {
-  max-width: 760px;
+  // mod y-tomita
+  //max-width: 760px;
+  //padding: 0 20px 0 20px;
+  //margin: 0 auto 0 auto;
+  max-width: 900px;
   padding: 0 20px 0 20px;
-  margin: 0 auto 0 auto;
+  margin: auto auto 0 auto;
 }
 
 .page-subtitle {
@@ -25,7 +29,8 @@
 
 .article-banner {
   width: 100%;
-  height: auto;
+  // mod y-tomita _nav.scss .nav's heightに合わせて増減
+  margin: -20px auto auto auto;
 }
 
 .featured-image-wrapper {
@@ -38,6 +43,8 @@
   position: relative;
   width: 100%;
   display: block;
+  // mod y-tomita for mobile header
+  padding: 0 10px 0 10px;
   margin: 0 auto;
 }
 
