@@ -1,3 +1,3 @@
-module github.com/wowchemy/wowchemy-hugo-modules
+module github.com/y-tomita/fork-from-hugo-academic/wowchemy
 
-go 1.14
+go 1.15
